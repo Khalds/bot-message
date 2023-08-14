@@ -1,0 +1,37 @@
+.inputWrapper {
+  width: 100%;
+  max-width: 781px;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px 16px 16px;
+
+  .input {
+    height: 100%;
+    width: 100%;
+    padding: 0 28px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+  }
+
+  .buttonWrapper {
+    display: flex;
+    justify-content: center;
+    .inputBtn {
+      display: grid;
+      place-items: center;
+      width: 40px;
+      height: 40px;
+      border: none;
+      border-radius: 50%;
+      background: #007afe;
+      cursor: pointer;
+
+      .sendIcon {
+        margin-left: 2px;
+      }
+    }
+  }
+}
